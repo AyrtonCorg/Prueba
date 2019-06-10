@@ -1,0 +1,20 @@
+Usuario>> 1 
+Chatbot>> 1 
+Usuario>> Java Ingenieria 
+Chatbot>> Java Ingenieria 
+Usuario>> Java fin 
+Chatbot>> Java fin 
+Usuario>> Java 
+Chatbot>> Java 
+Usuario>> fin Industrial 8 
+Chatbot>> fin Industrial 8 
+Usuario>> fin 1 
+Chatbot>> fin 1 
+Usuario>> fin 9 Union de Santa Fe 
+Chatbot>> fin 9 Union de Santa Fe 
+Usuario>> fin 1 
+Chatbot>> fin 1 
+Usuario>> Union de Santa Fe 
+Chatbot>> El dueño de la ciudad
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
