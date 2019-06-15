@@ -13,9 +13,9 @@ public class Main {
 		//e.escucha();
 		StandfordDemo s = new StandfordDemo();
 		palabras.addAll(s.identificarPalabras("Joe Smith, nació? en California."));
-		/*for(Palabra p : s.identificarPalabras("Joe Smith, nació? en California.")) {
+		for(Palabra p : s.identificarPalabras("Joe Smith, nació? en California.")) {
 			System.out.println(p.getPalabra()+" , "+p.getParte());
-		}*/
+		}
 		
 		//Normalizar palabras
 		//s.normalizar(palabras)
