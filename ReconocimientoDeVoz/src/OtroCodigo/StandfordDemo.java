@@ -1,6 +1,7 @@
 package OtroCodigo;
 
 import java.io.*;
+import java.text.Normalizer;
 import java.util.*;
 
 import edu.stanford.nlp.coref.CorefCoreAnnotations;
@@ -15,6 +16,7 @@ import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
 import edu.stanford.nlp.semgraph.SemanticGraphEdge;
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.simple.Sentence;
+import edu.stanford.nlp.simple.Token;
 import edu.stanford.nlp.trees.*;
 import edu.stanford.nlp.util.*;
 
@@ -45,40 +47,85 @@ public class StandfordDemo {
 		    CoreMap sentence = sentences.get(0);
 		    //Por cada palabra identificada la agrego  
 		    for (CoreMap token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {	    	  
-		      palabras.add(new Palabra(token.get(CoreAnnotations.TextAnnotation.class) , token.get(CoreAnnotations.PartOfSpeechAnnotation.class)));	    	  
+		      palabras.add(new Palabra(token.get(CoreAnnotations.TextAnnotation.class) , token.get(CoreAnnotations.PartOfSpeechAnnotation.class)));
+		      System.out.println(token.get(CoreAnnotations.LemmaAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.CanonicalEntityMentionIndexAnnotation.class));
+		      System.out.println(token.get(CoreAnnotations.TextAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.RoleAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.BagOfWordsAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.BestFullAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.CategoryFunctionalTagAnnotation.class));
+		      System.out.println(token.get(CoreAnnotations.CoarseNamedEntityTagAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.CorefMentionToEntityMentionMappingAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.LabelAnnotation.class));
+		      System.out.println(token.get(CoreAnnotations.NamedEntityTagAnnotation.class));
+		      System.out.println(token.get(CoreAnnotations.NamedEntityTagProbsAnnotation.class).toString());
+		      //System.out.println(token.get(CoreAnnotations.NormalizedNamedEntityTagAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.PhraseWordsAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.VerbSenseAnnotation.class));
+		      //System.out.println(token.get(CoreAnnotations.GenericTokensAnnotation.class));
+		      System.out.println(token.get(CoreAnnotations.PartOfSpeechAnnotation.class));
+		      System.out.println("--------------------------------------------------------------");
 		    }
 		}
 		
 		return palabras;
 	}
 	
-	/*public static void main(String[] args) throws IOException {  
-	  //String sampleSpanishText = "Kosgi Santosh envió un correo electrónico a la Universidad de Stanford. No recibió respuesta.";
-	  String sampleSpanishText = "Joe Smith, nació? en California.";
-	  //Creo la anotación y las propiedades.
-	  Annotation spanishAnnotation = new Annotation(sampleSpanishText);
-	  Properties spanishProperties = StringUtils.argsToProperties(new String[]{"-props", "StanfordCoreNLP-spanish.properties"});
-	  spanishProperties.setProperty("annotators",  "tokenize, ssplit, pos, lemma, ner, depparse, kbp");
-	  //Creo un pipeline.
-	  StanfordCoreNLP pipeline = new StanfordCoreNLP(spanishProperties);
-	  pipeline.annotate(spanishAnnotation);
-	  
-	  
+	public void normalizar(ArrayList<Palabra> palabras) {
+		//Elimino los signos de puntuación como los puntos, comas, etc.
+		eliminarPuntuaciones(palabras);
+		for (Palabra p : palabras) {
+			//Elimino a minúscula
+			pasarAMinuscula(p);
+			//Elimino acentos
+			eliminarAcentos(p);
+			//Si la palabra es un verbo...
+			/*if(p.getParte().equalsIgnoreCase("VERB")) {
+				//... lo paso a infinitivo
+				pasarAInfinitivo(p);
+			}*/
+		}
+		
+	}
 
-	    // An Annotation is a Map with Class keys for the linguistic analysis types.
-	    // You can get and use the various analyses individually.
-	    // For instance, this gets the parse tree of the first sentence in the text.
-	    List<CoreMap> sentences = spanishAnnotation.get(CoreAnnotations.SentencesAnnotation.class);	  
-	       
-	    if (sentences != null && ! sentences.isEmpty()) {
-	      CoreMap sentence = sentences.get(0);
-	      
-	      for (CoreMap token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {	    	  
-	    	  palabras.add(new Palabra(token.get(CoreAnnotations.TextAnnotation.class) , token.get(CoreAnnotations.PartOfSpeechAnnotation.class)));	    	  
-	      }
-	    }
-}*/
+	private void pasarAInfinitivo(Palabra p) {
+		
+	}
 
+	private void eliminarAcentos(Palabra p) {
+		String s = p.getPalabra();
+		s = Normalizer.normalize(s, Normalizer.Form.NFD);
+	    s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+	    	    
+	    p.setPalabra(s);
+	    //System.out.println("Sin acento: "+p.getPalabra());
+	}
+
+	private void pasarAMinuscula(Palabra p) {
+		p.setPalabra(p.getPalabra().toLowerCase());
+	}
+
+	private void eliminarPuntuaciones(ArrayList<Palabra> palabras) {		
+		//Creo una copia para ir iterando sobre él
+		ArrayList<Palabra> pAux = new ArrayList<>();
+		pAux.addAll(palabras);
+		
+		for(Palabra p : pAux) {
+			//Si p es un signo de puntuación...
+			if(p.getParte().equalsIgnoreCase("PUNCT")) {
+				//...lo remuevo del ArrayList original
+				palabras.remove(p);
+			}
+		}
+		/*System.out.println("LUEGO DE ELIMINAR LA PUNTUACÓN");
+		for(Palabra p : palabras) {
+			System.out.println(p.getPalabra()+" , "+p.getParte());
+		}*/
+	}
+	
+	
+	
 }
 
 

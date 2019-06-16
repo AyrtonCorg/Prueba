@@ -12,13 +12,14 @@ public class Main {
 		//Escucha e = new Escucha();
 		//e.escucha();
 		StandfordDemo s = new StandfordDemo();
-		palabras.addAll(s.identificarPalabras("Joe Smith, nació? en California."));
-		for(Palabra p : s.identificarPalabras("Joe Smith, nació? en California.")) {
+		palabras.addAll(s.identificarPalabras("nació"/*"Joe Smith, nació? en California."*/));
+		System.out.println("ANALISIS DE PALABRAS");
+		for(Palabra p : palabras) {
 			System.out.println(p.getPalabra()+" , "+p.getParte());
 		}
 		
 		//Normalizar palabras
-		//s.normalizar(palabras)
+		s.normalizar(palabras);
 		
 	}
 }
