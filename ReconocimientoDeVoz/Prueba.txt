@@ -18,3 +18,348 @@ Usuario>> Union de Santa Fe
 Chatbot>> El dueño de la ciudad
 Usuario>> fin 
 Chatbot>> Hasta la vista baby!
+Usuario>> Quiero una notebook 
+Chatbot>> Quiero una notebook 
+Usuario>> una 
+Chatbot>> una 
+Usuario>> Quiero televisor 
+Chatbot>> Quiero televisor 
+Usuario>> una 
+Chatbot>> una 
+Usuario>> 5 
+Chatbot>> 5 
+Usuario>> Union de Santa Fe 
+Chatbot>> El dueño de la ciudad
+Usuario>> Quiero una celular 
+Chatbot>> Quiero una celular 
+Usuario>> Quiero una 
+Chatbot>> Quiero una 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> Poca RAM 
+Chatbot>> Poca RAM 
+Usuario>> RAM 
+Chatbot>> RAM 
+Usuario>> RAM 
+Chatbot>> RAM 
+Usuario>> Mucha RAM 
+Chatbot>> Mucha RAM 
+Usuario>> Mucha 
+Chatbot>> Mucha 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> televisor 
+Chatbot>> televisor 
+Usuario>> fin RAM 
+Chatbot>> fin RAM 
+Usuario>> RAM 
+Chatbot>> RAM 
+Usuario>> RAM 
+Chatbot>> RAM 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> Quiero una televisor 
+Chatbot>> Quiero una televisor 
+Usuario>> RAM 
+Chatbot>> RAM 
+Usuario>> fin celular 
+Chatbot>> fin celular 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> Quiero una celular 
+Usuario>> Quiero una 9 fin 
+Chatbot>> Quiero una 9 fin 
+Usuario>> 7 
+Chatbot>> 7 
+Usuario>> 2 
+Chatbot>> 2 
+Usuario>> Union de Santa Fe celular 
+Chatbot>> Union de Santa Fe celular 
+Usuario>> 9 
+Chatbot>> 9 
+Usuario>> Radio 
+Chatbot>> Radio 
+Usuario>> Poca RAM 
+Chatbot>> Poca RAM 
+Usuario>> Mucha RAM 
+Chatbot>> Mucha RAM 
+Usuario>> Radio 
+Chatbot>> Radio 
+Usuario>> Poca RAM 
+Chatbot>> Poca RAM 
+Usuario>> Quiero una 
+Chatbot>> Quiero una 
+Usuario>> Poca RAM 
+Chatbot>> Poca RAM 
+Usuario>> Mucha RAM 
+Chatbot>> Mucha RAM 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> Necesito una notebook 
+Chatbot>> Necesito una notebook 
+Usuario>> Mucha RAM 
+Chatbot>> Mucha RAM 
+Usuario>> Quiero un smartphone 
+Chatbot>> Quiero un smartphone 
+Usuario>> Quiero una notebook 
+Chatbot>> Quiero una notebook 
+Usuario>> Busco una tablet 
+Chatbot>> Busco una tablet 
+Usuario>> Busco un televisor 
+Chatbot>> Busco un televisor 
+Usuario>> Queria preguntar por un celular 
+Chatbot>> Queria preguntar por un celular 
+Usuario>> Queria preguntar por un televisor 
+Chatbot>> Queria preguntar por un televisor 
+Usuario>> Queria preguntar por una notebook 
+Chatbot>> Queria preguntar por una notebook 
+Usuario>> fin 
+Chatbot>> Hasta la vista baby!
+Usuario>> Desactivar 
+Chatbot>> Desactivar 
+Usuario>> poco RAM 
+Chatbot>> poco RAM 
+Usuario>> poco RAM 
+Chatbot>> poco RAM 
+Usuario>> mucho RAM 
+Chatbot>> mucho RAM 
+Usuario>> n celular 
+Chatbot>> n celular 
+Usuario>> n celular 
+Chatbot>> n celular 
+Usuario>> HD 
+Chatbot>> HD 
+Usuario>> Full HD 
+Chatbot>> Full HD 
+Usuario>> 4K 
+Chatbot>> 4K 
+Usuario>> Sistema operativo Android 
+Chatbot>> Sistema operativo Android 
+Usuario>> Sistema operativo Android 
+Chatbot>> Sistema operativo Android 
+Usuario>> Sistema operativo IOS 
+Chatbot>> Sistema operativo IOS 
+Usuario>> n celular 
+Chatbot>> n celular 
+Usuario>> HD 
+Chatbot>> HD 
+Usuario>> Tengo un presupuesto bajo 
+Chatbot>> Tengo un presupuesto bajo 
+Usuario>> Necesito notebook 
+Chatbot>> Necesito notebook 
+Usuario>> Quiero notebook 
+Chatbot>> Quiero notebook 
+Usuario>> Busco notebook 
+Chatbot>> Busco notebook 
+Usuario>> Queria preguntar por una notebook 
+Chatbot>> Queria preguntar por una notebook 
+Usuario>> Necesito tablet 
+Chatbot>> Necesito tablet 
+Usuario>> Quiero una pantalla chico 
+Chatbot>> Quiero una pantalla chico 
+Usuario>> Quiero una pantalla chico 
+Chatbot>> Quiero una pantalla chico 
+Usuario>> Quiero notebook 
+Chatbot>> Quiero notebook 
+Usuario>> Busco notebook 
+Chatbot>> Busco notebook 
+Usuario>> Busco tablet 
+Chatbot>> Busco tablet 
+Usuario>> Quiero tablet 
+Chatbot>> Quiero tablet 
+Usuario>> Queria preguntar por una tablet 
+Chatbot>> Queria preguntar por una tablet 
+Usuario>> Necesito celular 
+Chatbot>> Necesito celular 
+Usuario>> Quiero celular 
+Chatbot>> Quiero celular 
+Usuario>> Busco celular 
+Chatbot>> Busco celular 
+Usuario>> Queria preguntar por un celular 
+Chatbot>> Queria preguntar por un celular 
+Usuario>> Necesito televisor 
+Chatbot>> Necesito televisor 
+Usuario>> Quiero televisor 
+Chatbot>> Quiero televisor 
+Usuario>> Busco televisor 
+Chatbot>> Busco televisor 
+Usuario>> Queria preguntar por un televisor 
+Chatbot>> Queria preguntar por un televisor 
+Usuario>> para diseño gráfico 
+Chatbot>> para diseño gráfico 
+Usuario>> para gamming 
+Chatbot>> para gamming 
+Usuario>> para jugar juegos 
+Chatbot>> para jugar juegos 
+Usuario>> para oficina 
+Chatbot>> para oficina 
+Usuario>> para documentos 
+Chatbot>> para documentos 
+Usuario>> para gamming 
+Chatbot>> para gamming 
+Usuario>> na tablet 
+Chatbot>> na tablet 
+Usuario>> mucho RAM 
+Chatbot>> mucho RAM 
+Usuario>> para uso diaro 
+Chatbot>> para uso diaro 
+Usuario>> para documentos 
+Chatbot>> para documentos 
+Usuario>> para programar 
+Chatbot>> para programar 
+Usuario>> para codificar 
+Chatbot>> para codificar 
+Usuario>> para desarrollar 
+Chatbot>> para desarrollar 
+Usuario>> Pienso gastar mucho 
+Chatbot>> Pienso gastar mucho 
+Usuario>> Tengo un presupuesto alto 
+Chatbot>> Tengo un presupuesto alto 
+Usuario>> Pienso gastar poco 
+Chatbot>> Pienso gastar poco 
+Usuario>> Tengo un presupuesto bajo 
+Chatbot>> Tengo un presupuesto bajo 
+Usuario>> Quiero una pantalla grande 
+Chatbot>> Quiero una pantalla grande 
+Usuario>> Quiero una pantalla mediana 
+Chatbot>> Quiero una pantalla mediana 
+Usuario>> Quiero una pantalla chico 
+Chatbot>> Quiero una pantalla chico 
+Usuario>> Con IOS Full HD 
+Chatbot>> Con IOS Full HD 
+Usuario>> Quiero una pantalla chico 
+Chatbot>> Quiero una pantalla chico 
+Usuario>> Calidad HD 
+Chatbot>> Calidad HD 
+Usuario>> Calidad Full HD 
+Chatbot>> Calidad Full HD 
+Usuario>> mucho RAM 
+Chatbot>> mucho RAM 
+Usuario>> poco RAM 
+Chatbot>> poco RAM 
+Usuario>> Quiero un disco grande 
+Chatbot>> Quiero un disco grande 
+Usuario>> Quiero que tenga mucho disco 
+Chatbot>> Quiero que tenga mucho disco 
+Usuario>> Quiero un disco chico 
+Chatbot>> Quiero un disco chico 
+Usuario>> Quiero que tenga poco disco 
+Chatbot>> Quiero que tenga poco disco 
+Usuario>> Pienso gastar poco 
+Chatbot>> Pienso gastar poco 
+Usuario>> Tengo un presupuesto bajo 
+Chatbot>> Tengo un presupuesto bajo 
+Usuario>> Con buena cámara 
+Chatbot>> Con buena cámara 
+Usuario>> Con una cámara excelente 
+Chatbot>> Con una cámara excelente 
+Usuario>> Con cámara normal 
+Chatbot>> Con cámara normal 
+Usuario>> Con cámara decente 
+Chatbot>> Con cámara decente 
+Usuario>> Sistema operativo Android 
+Chatbot>> Sistema operativo Android 
+Usuario>> Con Android 
+Chatbot>> Con Android 
+Usuario>> Sistema operativo IOS 
+Chatbot>> Sistema operativo IOS 
+Usuario>> Con IOS HD 
+Chatbot>> Con IOS HD 
+Usuario>> Con IOS 
+Chatbot>> Con IOS 
+Usuario>> HD 
+Chatbot>> HD 
+Usuario>> Full HD 
+Chatbot>> Full HD 
+Usuario>> 4K 
+Chatbot>> 4K 
+Usuario>> n notebook para diseño gráfico 
+Chatbot>> n notebook para diseño gráfico 
+Usuario>> n notebook para jugar juegos 
+Chatbot>> n notebook para jugar juegos 
+Usuario>> 
+Chatbot>> 
+Usuario>> n notebook para diseño gráfico 
+Chatbot>> n notebook para diseño gráfico 
+Usuario>> n notebook para jugar juegos 
+Chatbot>> n notebook para jugar juegos 
+Usuario>> Qué notebook tengo Con mucho RAM 
+Chatbot>> Qué notebook tengo Con mucho RAM 
+Usuario>> Qué notebook tengo Con poco RAM 
+Chatbot>> Qué notebook tengo Con poco RAM 
+Usuario>> Qué notebook tengo Full HD 
+Chatbot>> Qué notebook tengo Full HD 
+Usuario>> Qué notebook tengo HD 
+Chatbot>> Qué notebook tengo HD 
+Usuario>> Qué notebook Full HD hay? 
+Chatbot>> Qué notebook Full HD hay? 
+Usuario>> Qué notebook tengo Full HD 
+Chatbot>> Qué notebook tengo Full HD 
+Usuario>> n notebook Con Android 
+Chatbot>> n notebook Con Android 
+Usuario>> Qué televisor 4K tenemos? 
+Chatbot>> Qué televisor 4K tenemos? 
+Usuario>> Qué televisor baratas tenemos? 
+Chatbot>> Qué televisor baratas tenemos? 
+Usuario>> Qué televisor Con pantalla grande tenemos? 
+Chatbot>> Qué televisor Con pantalla grande tenemos? 
+Usuario>> Cambiar 
+Chatbot>> Cambiar 
+Usuario>> n celular 
+Chatbot>> n celular 
+Usuario>> Desactivar 
+Chatbot>> Desactivar 
+Usuario>> Enviar 
+Chatbot>> Enviar 
+Usuario>> Borrar 
+Chatbot>> Borrar 
+Usuario>> Cuáles son los celular Con Android que tenemos? 
+Chatbot>> Cuáles son los celular Con Android que tenemos? 
+Usuario>> Borrar 
+Chatbot>> Borrar 
+Usuario>> Qué televisor 4K tenemos? 
+Chatbot>> Qué televisor 4K tenemos? 
+Usuario>> Qué celular Con poco RAM tenemos? 
+Chatbot>> Qué celular Con poco RAM tenemos? 
+Usuario>> Qué tablet Con disco grande tenemos? 
+Chatbot>> Qué tablet Con disco grande tenemos? 
+Usuario>> Qué notebook tengo Con disco chico 
+Chatbot>> Qué notebook tengo Con disco chico 
+Usuario>> Qué notebook para oficina tenemos? 
+Chatbot>> Qué notebook para oficina tenemos? 
+Usuario>> Qué notebook para codificar tenemos? 
+Chatbot>> Qué notebook para codificar tenemos? 
+Usuario>> Pienso gastar mucho 
+Chatbot>> Pienso gastar mucho 
+Usuario>> Pienso gastar mucho 
+Chatbot>> Pienso gastar mucho 
+Usuario>> Desactivar 
+Chatbot>> Desactivar 
+Usuario>> Enviar 
+Chatbot>> Enviar 
+Usuario>> Borrar 
+Chatbot>> Borrar 
+Usuario>> Pienso gastar mucho 
+Chatbot>> Pienso gastar mucho 
+Usuario>> Pienso gastar poco 
+Chatbot>> Pienso gastar poco 
+Usuario>> Pienso gastar mucho 
+Chatbot>> Pienso gastar mucho 
+Usuario>> Quiero que tenga mucho disco 
+Chatbot>> Quiero que tenga mucho disco 
+Usuario>> Quiero notebook Con Android 
+Chatbot>> Quiero notebook Con Android 
+Usuario>> Desactivar 
+Chatbot>> Desactivar 
+Usuario>> mucho RAM 
+Chatbot>> mucho RAM 
+Usuario>> HD 
+Chatbot>> HD 
+Usuario>> para gamming 
+Chatbot>> para gamming 
+Usuario>> Qué televisor baratas tenemos? 
+Chatbot>> Qué televisor baratas tenemos? 
+Usuario>> Borrar 
+Chatbot>> Borrar 
+Usuario>> Borrar 
+Chatbot>> Borrar 

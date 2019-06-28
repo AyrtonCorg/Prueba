@@ -45,6 +45,7 @@ public class StanfordLemmatizer {
             for (CoreLabel token: sentence.get(TokensAnnotation.class)) {
                 // Retrieve and add the lemma for each word into the list of lemmas
                 lemmas.add(token.get(LemmaAnnotation.class));
+                System.out.println("Lemma: "+token.get(LemmaAnnotation.class));
             }
         }
 

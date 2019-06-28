@@ -3,29 +3,56 @@ grammar sentence;
  
 public <sentence> =
 [<dato0>]
-[<dato1>]
-[<dato2>]
-[<dato3>]
-[<dato4>]
-[<dato1><dato2><dato3><dato4>]
-[<dato5>][<dato6>][<dato7>][<dato8>][<dato9>][<dato10>][<dato11>][<dato12>][<dato13>][<dato14>]
-[<dato15>]
-[<dato16>];
- 
-<dato0>=Metodologia de la Investigacion Cientifica;
-<dato1>=Java;
-<dato2>=Faltan 5 pe;
-<dato3>=Orientada;
-<dato4>=Objetos;
-<dato5>=fin;
-<dato6>=Clases;
-<dato7>=Horario;
-<dato8>=Canario;
-<dato9>=Radio;
-<dato10>=Television;
-<dato11>=Ingenieria;
-<dato12>=Industrial;
-<dato13>=Informatica;
-<dato14>=Comida;
-<dato15>=1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ;
-<dato16>=Union de Santa Fe;
+[<dato1><dato2>]
+[<dato3><dato4>]
+[<dato5><dato24><dato6>]
+[<dato7><dato8>]
+[<dato9><dato10>]
+[<dato11><dato10>]
+[<dato11><dato12>]
+[<dato13><dato7>]
+[<dato14>]
+[<dato15><dato14>]
+[<dato16><dato18><dato6>]
+[<dato17><dato7><dato18>]
+[<dato19><dato20>]
+[<dato21><dato2><dato3><dato4><dato22>]
+[<dato21><dato2><dato23><dato22>]
+[<dato21><dato2><dato22><dato14>]
+[<dato21><dato2><dato14><dato22>]
+[<dato21><dato2><dato22><dato11><dato7><dato8>]
+[<dato21><dato2><dato11><dato7><dato8><dato22>]
+[<dato21><dato2><dato22><dato11><dato24><dato6>]
+[<dato21><dato2><dato11><dato24><dato6><dato22>]
+[<dato21><dato2><dato22><dato11><dato18><dato6>]
+[<dato21><dato2><dato11><dato18><dato6><dato22>]
+[<dato21><dato2><dato11><dato12><dato22>]
+[<dato21><dato2><dato11><dato10><dato22>] 
+;
+
+<dato0>=Desactivar|Enviar | Borrar;
+<dato1>=Necesito una| Quiero una| Busco una| Queria preguntar por una |Necesito un| Quiero un| Busco un| Queria preguntar por un;
+<dato2>= notebook | tablet | celular | televisor;
+<dato3>=para;
+<dato4>=diseño gráfico | gamming | jugar juegos | oficina | uso diaro | documentos | programar| codificar | desarrollar;
+<dato5>=Quiero una;
+<dato6>=  grande | mediana |pequeña |chico;
+<dato7>= mucho | poco;
+<dato8>= RAM;
+<dato9>= Sistema operativo;
+<dato10>= Android | IOS;
+<dato11>=Con;
+<dato12>=buena cámara | una cámara excelente | cámara normal | cámara decente;
+<dato13>=Pienso gastar;
+<dato14>=HD | Full HD | 4K;
+<dato15>=Calidad;
+<dato16>=Quiero un ;
+<dato17>=Quiero que tenga;
+<dato18>=disco;
+<dato19>=Tengo un presupuesto;
+<dato20>=alto | bajo;
+<dato21>= Qué | Cuáles son las | Cuáles son los;
+<dato22>=tenemos? | tengo | hay? | que tenemos?;
+<dato23>=más caras | más económicas | más baratas | caras | económicas | baratas;
+<dato24>= pantalla;
+

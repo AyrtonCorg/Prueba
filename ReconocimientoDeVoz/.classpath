@@ -28,5 +28,6 @@
 	<classpathentry kind="lib" path="D:/Google Drive/Universidad/5 - Quinto año (2019)/Inteligencia artificial/TP IA/TP2/Librerias Stanford/stanford-corenlp-full-2018-10-05/jaxb-core-2.3.0.1-sources.jar"/>
 	<classpathentry kind="lib" path="D:/Google Drive/Universidad/5 - Quinto año (2019)/Inteligencia artificial/TP IA/TP2/Librerias Stanford/stanford-corenlp-full-2018-10-05/jaxb-impl-2.4.0-b180830.0438.jar"/>
 	<classpathentry kind="lib" path="D:/Google Drive/Universidad/5 - Quinto año (2019)/Inteligencia artificial/TP IA/TP2/Librerias Stanford/stanford-corenlp-full-2018-10-05/jaxb-impl-2.4.0-b180830.0438-sources.jar"/>
+	<classpathentry kind="lib" path="C:/edu/upc/freeling.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
